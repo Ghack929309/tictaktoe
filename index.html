@@ -1,0 +1,29 @@
+<style>
+    body{
+        background-color: black;
+        position: relative;
+    }
+    .score{
+        width: 100%;
+       color: white;
+        position: absolute;
+        display: flex;
+        justify-content: space-between;
+        padding: 5px;
+    }
+    .turn{
+        width: 100%;
+        color: white;
+        position: absolute;
+        bottom: 50%;
+        display: flex;
+        justify-content: center;
+    }
+</style>
+<div class="score">
+    <p>Robot : <span id="robot">0</span></p>
+    <p> player :<span id="player"> 0</span></p>
+</div>
+<canvas class="canvasEl"></canvas>
+<div class="turn"></div>
+<script src="script.js"></script>
