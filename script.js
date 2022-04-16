@@ -108,10 +108,10 @@ const validMove={
                   })
                   console.log(validMove.random)
                       validMove.random.splice(validMove.random.indexOf(boundary.name), 1)
-              }
-              }
               validMove.play=false
               turn.innerHTML='Robot'
+              }
+              }
 
           })
 
