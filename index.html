@@ -2,6 +2,11 @@
     body{
         background-color: black;
         position: relative;
+        width: 100vw;
+        height: 100vh;
+        /*display: flex;*/
+        /*flex-direction: column;*/
+        /*justify-content: start;*/
     }
     .score{
         width: 100%;
@@ -22,8 +27,8 @@
 </style>
 <div class="score">
     <p>Robot : <span id="robot">0</span></p>
+    <div class="turn"></div>
     <p> player :<span id="player"> 0</span></p>
 </div>
 <canvas class="canvasEl"></canvas>
-<div class="turn"></div>
 <script src="script.js"></script>

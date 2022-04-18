@@ -57,8 +57,8 @@ const boundaries = []
         boundaries.push(
             new Grid({
                 position:{
-                    x: columnIndex ===0?(innerWidth/2)-50:(innerWidth/2)-50+(62*columnIndex) ,
-                    y: 62 * rowIndex===0?(innerWidth/2)-50:(innerWidth/2)-50+(62*rowIndex)
+                    x: columnIndex ===0?(innerWidth/2)-90:(innerWidth/2)-90+(62*columnIndex) ,
+                    y: 62 * rowIndex===0?(innerWidth/2)-360:(innerWidth/2)-360+(62*rowIndex)
                 },name:`${rowIndex}-${columnIndex}`,
                 pressed:false,
                 finish:false
@@ -178,6 +178,5 @@ let result = false
     })
     return result
 }
-
 
 
